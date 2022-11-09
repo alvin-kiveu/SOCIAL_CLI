@@ -6,3 +6,7 @@ C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.csproj.SuggestedBi
 C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.csproj.CoreCompileInputs.cache
 C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.exe
 C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.pdb
+C:\c#apps\umsportal cli\umsportal cli\bin\Debug\umsportal cli.exe.manifest
+C:\c#apps\umsportal cli\umsportal cli\bin\Debug\umsportal cli.application
+C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.exe.manifest
+C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.application
