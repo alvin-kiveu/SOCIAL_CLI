@@ -10,3 +10,5 @@ C:\c#apps\umsportal cli\umsportal cli\bin\Debug\umsportal cli.exe.manifest
 C:\c#apps\umsportal cli\umsportal cli\bin\Debug\umsportal cli.application
 C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.exe.manifest
 C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.application
+C:\c#apps\umsportal cli\umsportal cli\bin\Debug\Mikrotik.Net.dll
+C:\c#apps\umsportal cli\umsportal cli\obj\Debug\umsportal cli.csproj.CopyComplete

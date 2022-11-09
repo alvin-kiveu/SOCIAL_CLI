@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MikrotikDotNet;
 using System.Net.NetworkInformation;
 
 namespace social_cl
@@ -50,6 +51,35 @@ namespace social_cl
                 Console.WriteLine("PC name: " + resultName);
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("Success");
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.Write("Would you like to login to MIKROTIK yes OR no ?");
+                string ans = Console.ReadLine();
+                if(ans == "yes")
+                {
+                    Console.ForegroundColor = ConsoleColor.White;
+                    Console.Write("Mikrotik Ip : ");
+                    string mikrotikip = Console.ReadLine();
+                    Console.Write("login : ");
+                    string login  = Console.ReadLine();
+                    Console.Write("Password: ");
+                    string mikrotipassword = Console.ReadLine();
+                    using (var conn = new MKConnection(mikrotikip, login, mikrotipassword))
+                    {
+                        conn.Open();
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("Mikrotik login Success ");
+                        Console.ForegroundColor = ConsoleColor.DarkBlue;
+                        Console.WriteLine("Git repo : https://github.com/janmohammadi/MikrotikDotNet.git");
+
+                    }
+                   
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("Thank you for using our cli");
+                }
+
                 Console.ReadKey();
             }
             else
